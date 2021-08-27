@@ -2,4 +2,8 @@
     <string name="app_name">Quiz</string>
     <string name="Start" />
     <string name="SartButton">スタート</string>
+    <string name="starttext">Quizスタート</string>
+    <string name="startbutton">スタート</string>
+    <string name="restart">リスタート</string>
+    <string name="home">ホームに戻る</string>
 </resources>

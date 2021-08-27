@@ -4,6 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color4"
     tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/quiztext"
+        android:layout_width="341dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quizbutton4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Button4"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/quizbutton3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/quizbutton3"
+        app:layout_constraintTop_toBottomOf="@+id/quizbutton3" />
+
+    <Button
+        android:id="@+id/quizbutton2"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Button2"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/quizbutton1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/quizbutton1"
+        app:layout_constraintTop_toBottomOf="@+id/quizbutton1" />
+
+    <Button
+        android:id="@+id/quizbutton3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Button3"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/quizbutton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/quizbutton2"
+        app:layout_constraintTop_toBottomOf="@+id/quizbutton2" />
+
+    <Button
+        android:id="@+id/quizbutton1"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="260dp"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiztext" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/quiztext"
+        app:layout_constraintStart_toStartOf="@+id/quiztext"
+        app:layout_constraintTop_toBottomOf="@+id/quiztext"
+        app:srcCompat="@drawable/s20017_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
